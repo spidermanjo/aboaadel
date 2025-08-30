@@ -93,9 +93,9 @@
     canvas.width = W * dpr; canvas.height = H * dpr;
     ctx.scale(dpr, dpr);
 
-     let gravity = 0.45, flapStrength = -8.6;
-    let pipeSpeed = 3, pipeGap = 180, pipeWidth = 72;
-    let spawnInterval = 110, frame = 0;
+     let gravity = 0.6, flapStrength = -8.6;
+    let pipeSpeed = 5, pipeGap = 160, pipeWidth = 72;
+    let spawnInterval = 85, frame = 0;
 
      const player = { x:100, y:H/2, w:52, h:52, vy:0 };
     let pipes = []; let running=false, isGameOver=false;
@@ -366,3 +366,4 @@
   </script>
 </body>
 </html>
+
